@@ -1,0 +1,42 @@
+<html>
+        <body><!DOCTYPE html>
+<html>
+    <head>
+        <title> 
+            form validation
+        </title>
+    </head>
+    <body>
+        <h1>
+            form validation
+        </h1>
+        <form onsubmit="return clickme()">
+            Firstname:
+            <input type="text" id="s2">
+            <br>
+            <br>
+            Lastname:
+            <input type="text">
+            <br>
+            <br>
+            Email:
+            <input type="email">
+            <br>
+            <br>
+            Password:
+            <input type="password">
+            <input type="submit">
+        </form>
+        <script>
+            function clickme(){
+            var D=document.getElementById("s2").value;
+            if(D==""){
+            alert("first name must be filled out");
+            }
+            }
+            </script>
+    </body>
+</html></body>
+        <style></style>
+        <script></script>
+      </html>
